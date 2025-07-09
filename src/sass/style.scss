@@ -1,6 +1,7 @@
 
 @use"/src/sass/base/variables.scss" as *;
 
+@use"/src/sass/pxtorem.scss";
 
 
 html {
@@ -10,5 +11,6 @@ html {
 }
 
 span {
-    font-size: 32px;
+    font-size: 40px;
+    color:$ui-error;
 }
