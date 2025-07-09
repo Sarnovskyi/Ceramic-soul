@@ -1,3 +1,3 @@
 "use strict"
 
-import '../sass/style.scss'
+import '/src/sass/style.scss';

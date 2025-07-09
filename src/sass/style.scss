@@ -1,3 +1,14 @@
-h1 {
-    color: red;
+
+@use"/src/sass/base/variables.scss" as *;
+
+
+
+html {
+    font-family: "Barlow", sans-serif;
+    scroll-behavior: smooth;
+
+}
+
+span {
+    font-size: 32px;
 }
