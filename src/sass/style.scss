@@ -3,14 +3,6 @@
 
 @use"/src/sass/pxtorem.scss";
 
+@use"/src/sass/base/basic.scss";
 
-html {
-    font-family: "Barlow", sans-serif;
-    scroll-behavior: smooth;
 
-}
-
-span {
-    font-size: 40px;
-    color:$ui-error;
-}
